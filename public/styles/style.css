@@ -1,0 +1,93 @@
+body {
+    color: white;
+    background-color: #ebebeb;
+    font-family: 'Oswald', sans-serif;
+
+}
+
+main {
+    text-align: center;    
+}
+section {
+    width:80%;
+    margin: 10px auto;
+    border-radius:1.5%;
+}
+
+#projetos {
+    background-color: black;
+    height: 100%;
+    /*padding-top: 50vh; */
+}
+
+img{
+    width:80%;
+    height:80%;
+    margin: 0 auto;
+}
+
+#perfil {
+    background-color: black;
+    height: 100%;
+    /*padding-top: 50vh; */
+}
+
+#contato {
+    background-color: black;
+    height: 35%;
+    /*padding-top: 50vh; */
+}
+
+#perfil-foto {
+    display: flex;
+}
+
+#fotos {
+    width: 40%;
+    height: 100%;
+}
+
+#bio {
+    width: 60%;
+    text-align: left;
+    font-family: 'Lato', sans-serif;
+}
+
+div h4{
+    font-family: 'Oswald', sans-serif;
+}
+
+#bio p:nth-of-type(2){
+    font-size:13px;
+}
+
+i {
+    font-size: 35px;
+}
+
+#contato p {
+    padding: 20px;
+}
+
+a:link {
+   color: white;
+}
+
+/* link que foi visitado */
+a:visited {
+    color: white;
+}
+
+/* mouse over */
+a:hover {
+    color: gray;
+}
+
+/* link selecionado */
+a:active {
+    color: white;
+}
+
+i {
+    padding: 0 20px;
+}
