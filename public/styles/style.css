@@ -20,6 +20,18 @@ section {
     /*padding-top: 50vh; */
 }
 
+#imagens-projetos {
+    display: flex;
+    justify-content: space-around;
+}
+
+#projetos img {
+    display: inline-block;
+    height: 80%;
+    width: 500px;
+    border-radius:1.5%;
+}
+
 img{
     width:80%;
     height:80%;
