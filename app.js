@@ -10,6 +10,18 @@ app.get("/", function(req, res){
    res.render("index"); 
 });
 
+app.get("/habilidades", function(req, res){
+   res.render("habilidades"); 
+});
+
+app.get("/projetos", function(req, res){
+   res.render("projetos"); 
+});
+
+app.get("/sobre-mim", function(req, res){
+   res.render("sobre-mim"); 
+});
+
 app.listen(process.env.PORT, process.env.IP, function(){
    console.log("O site tá no ar!!!");
 });
